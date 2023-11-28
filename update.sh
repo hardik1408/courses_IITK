@@ -1,5 +1,6 @@
 #!/bin/bash
 git status
 git add .
-git commit -m"update"
+read name
+git commit -m\"$name\"
 git push origin master
